@@ -35,7 +35,7 @@
 (prelude-require-packages '(company-lsp
                             lsp-mode
                             lsp-ui))
-
+(require 'lsp)
 (require 'lsp-ui)
 (require 'lsp-ui-imenu)
 
