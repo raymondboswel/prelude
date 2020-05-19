@@ -10,6 +10,6 @@
 (require 'lsp-mode)
 (add-hook 'mhtml-mode-hook #'lsp)
 
-(add-hook 'mhtml-mode-hook
-          (lambda ()
-            (format-all-mode)))
+;; (add-hook 'mhtml-mode-hook
+;;           (lambda ()
+;;             (prettier-js-mode)))

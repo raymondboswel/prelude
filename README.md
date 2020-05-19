@@ -1,11 +1,16 @@
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/bbatsov)
 
-Emacs Prelude
-=============
+====Raymond Notes=========
+Install prettier package from here https://github.com/jscheid/prettier.el,
+because it doesn't follow standard installation procedures, but is the
+only prettier plugin I could find that doesn't lose cursor position when
+formatting
+
+# Emacs Prelude
 
 Prelude is an Emacs distribution that aims to enhance the default
-Emacs experience.  Prelude alters a lot of the default settings,
+Emacs experience. Prelude alters a lot of the default settings,
 bundles a plethora of additional packages and adds its own core
 library to the mix. The final product offers an easy to use Emacs
 configuration for Emacs newcomers and lots of additional power for
@@ -71,9 +76,9 @@ and send me a pull request. :-)
 
 Support is available via several channels:
 
-* Prelude's Google Group <emacs-prelude@googlegroups.com>
-* Prelude's Freenode channel (`#prelude-emacs`)
-* [Gitter](https://gitter.im/bbatsov/prelude)
+- Prelude's Google Group <emacs-prelude@googlegroups.com>
+- Prelude's Freenode channel (`#prelude-emacs`)
+- [Gitter](https://gitter.im/bbatsov/prelude)
 
 ## Contributors
 
