@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Create selector
+# key: crs
+# --
+
+export const ${1:selector} = createSelector(
+  ${2:parentSelector},
+  (${3:params}) => {
+    $0
+  }
+)
