@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Create effect
+# key: cre
+# --
+
+${1:action}$= createEffect(() =>
+    this.actions$.pipe(ofType({$1})))

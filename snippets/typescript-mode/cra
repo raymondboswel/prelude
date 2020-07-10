@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Create action
+# key: cra
+# --
+
+export const ${1:action} = createAction('[${2:context}] ${3:description}')

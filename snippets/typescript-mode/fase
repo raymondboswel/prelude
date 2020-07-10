@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Create facade selector
+# key: fase
+# --
+
+${1:name}$ = this.store.pipe(select({$1}));

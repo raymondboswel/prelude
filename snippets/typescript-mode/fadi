@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Create facade action dispatcher
+# key: fadi
+# --
+
+${1:action}() {
+  this.store.dispatch({$1}(${0}));
+}
