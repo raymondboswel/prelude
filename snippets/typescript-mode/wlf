@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Effect withLatestFrom
+# key: wlf
+# --
+
+concatMap(action => of(action).pipe(withLatestFrom(${1:selector})))

@@ -5,7 +5,7 @@
 
 export const ${1:selector} = createSelector(
   ${2:parentSelector},
-  (${3:params}) => {
+  (${3:state}) => {
     $0
   }
 )

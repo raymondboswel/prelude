@@ -3,4 +3,4 @@
 # key: fase
 # --
 
-${1:name}$ = this.store.pipe(select({$1}));
+${1:name}$ = this.store.pipe(select($1));

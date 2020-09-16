@@ -4,4 +4,4 @@
 # --
 
 ${1:action}$= createEffect(() =>
-    this.actions$.pipe(ofType({$1})))
+    this.actions$.pipe(ofType($1)))

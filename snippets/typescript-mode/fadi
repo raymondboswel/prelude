@@ -4,5 +4,5 @@
 # --
 
 ${1:action}() {
-  this.store.dispatch({$1}(${0}));
+  this.store.dispatch($1(${0}));
 }
