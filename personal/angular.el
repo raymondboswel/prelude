@@ -13,3 +13,18 @@
 ;; (add-hook 'mhtml-mode-hook
 ;;           (lambda ()
 ;;             (prettier-js-mode)))
+
+;; (add-to-list 'projectile-other-file-alist '("component.html" "component.ts" "component.scss")) ;; switch from html -> ts -> scss
+;; (add-to-list 'projectile-other-file-alist '("html" "ts" "scss")) ;; switch from html -> ts -> scss
+;; (add-to-list 'projectile-other-file-alist '("ts" "html" )) ;; switch from html -> ts -> scss
+;; (add-to-list 'projectile-other-file-alist '("scss" "html" )) ;; switch from html -> ts -> scss
+
+(add-to-list 'projectile-other-file-alist '("component.html" "component.ts" "component.scss")) ;; switch from html -> ts -> scss
+(add-to-list 'projectile-other-file-alist '("component.ts" "component.html" "component.scss")) ;; switch from html -> ts -> scss
+(add-to-list 'projectile-other-file-alist '("component.scss" "component.html" "component.ts")) ;; switch from html -> ts -> scss
+
+(add-to-list 'projectile-globally-ignored-directories "dist")
+(add-to-list 'projectile-globally-ignored-directories "node_modules")
+
+(require 'flycheck)
+;; (flycheck-add-next-checker 'lsp 'typescript-tslint)
