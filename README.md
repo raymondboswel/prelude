@@ -34,6 +34,8 @@ You can support the development of Prelude via
 * Simple modular architecture
 * Easy customization
 
+Check out our [user manual](https://prelude.emacsredux.com) for more information.
+
 ## Fast Forward
 
 Assuming you're using an Unix-like OS (`*BSD`, `GNU/Linux`, `macOS`, `Solaris`,
@@ -98,6 +100,8 @@ In practice this translates to the following:
 Remember that the ultimate goal of every Emacs user is to create an Emacs setup that reflects their own experience, needs, goals and ideas. Just like Lisp,
 Emacs is nothing but a raw building material for the perfect editing experience.
 
+More installation options are discussed [here](https://prelude.emacsredux.com/en/latest/installation/).
+
 ## User Manual
 
 While Emacs Prelude is pretty simple at its core, it does have some specifics that
@@ -144,7 +148,7 @@ welcome. GitHub pull requests are even better! :-)
 
 ## License
 
-Copyright © 2011-2020 Bozhidar Batsov and
+Copyright © 2011-2021 Bozhidar Batsov and
 [contributors](https://github.com/bbatsov/prelude/contributors).
 
 Distributed under the GNU General Public License, version 3
